@@ -2,6 +2,14 @@
 #include <math.h>
 #include <ctype.h>
 
+// Function declaration/prototype
+// int printHello(int a, int b);
+// float calculatePrice(float a, float gst);
+// double findPower(double num, double power);
+double areaOfSquare(double side);
+double areaOfCircle(double radius);
+float areaOfRectangle(float length, float width);
+
 int main()
 {
     // int a, b;
@@ -397,5 +405,59 @@ int main()
     // {
     //     printf("%d\n", i * num);
     // }
+
+    // ---------------- Functions -----------------------------------
+    // function calling
+    // int sum = printHello(10, 23);
+    // printf("%d\n", sum);
+
+    // float finalPrice = calculatePrice(100, 20);
+    // printf("final price is %f \n", finalPrice);
+    // double base, power, result;
+
+    // printf("Enter the base number: ");
+    // scanf("%lf", &base);
+
+    // printf("Enter the power raised: ");
+    // scanf("%lf", &power);
+
+    // result = findPower(base, power);
+    // printf("%lf\n", result);
+
+
+    // printf("Area of circle %lf\n", areaOfCircle(2));
+    // printf("Area of square %lf\n", areaOfSquare(2));
+    // printf("Area of rectangle %f\n", areaOfRectangle(2, 4));
     return 0;
 }
+
+// // Function defintion
+// int printHello(int a, int b)
+// {
+//     return a + b;
+// }
+
+// float calculatePrice(float a, float gst)
+// {
+//     return a + (a * (gst / 100)); // add 5 % GST
+// }
+
+// double findPower(double numb, double power)
+// {
+//     return pow(numb, power);
+// }
+
+// Q16. Write a function to print Area of square, rectangle and circle.
+// double areaOfCircle(double radius){
+//     return pow(radius, 2) * 3.14;
+// }
+
+// double areaOfSquare(double side){
+//     return pow(side, 2);
+// }
+
+// float areaOfRectangle(float length, float width){
+//     return length * width;
+// }
+
+
