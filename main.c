@@ -6,9 +6,9 @@
 // int printHello(int a, int b);
 // float calculatePrice(float a, float gst);
 // double findPower(double num, double power);
-double areaOfSquare(double side);
-double areaOfCircle(double radius);
-float areaOfRectangle(float length, float width);
+// double areaOfSquare(double side);
+// double areaOfCircle(double radius);
+// float areaOfRectangle(float length, float width);
 
 int main()
 {
