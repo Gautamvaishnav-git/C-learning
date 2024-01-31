@@ -270,13 +270,132 @@ int main()
 
     // Do while loop
 
-    int i = 1;
+    // int i = 1;
 
-    do
-    {
-        printf("Hello world %d times\n", i);
-        i++;
-    } while (i <= 5);
+    // do
+    // {
+    //     printf("Hello world %d times\n", i);
+    //     i++;
+    // } while (i <= 5);
 
+    // return 0;
+
+    // Q10. Print odd number between 1-100
+    // ++i (pre increment operator)
+    // i++ (post increment operator)
+    // --i (pre decrement operator)
+    // i-- (post decrement operator)
+
+    // for (int i = 1; i < 100; i++)
+    // {
+    //     if (i % 2 != 0)
+    //     {
+    //         printf("%d is odd\n", i);
+    //     }
+    // }
+
+    // reverse the loop
+    // for (int i = 100; i >= 1; i--)
+    // {
+    //     printf("%d\n", i);
+    // }
+
+    // float counter loops
+    // for(float i = 1.0; i <= 5.0; i++){
+    //     printf("%f\n", i);
+    // }
+
+    // print A to Z characters
+    // for (char ch = 'A'; ch <= 'Z'; ch++)
+    // {
+    //     printf("%c\n", ch);
+    // }
+
+    // for(int i = 1; i <= 10000; i++){
+    //     printf("%d\n", i);
+    // }
+
+    // int n;
+    // printf("Print your number to print loop: ");
+    // scanf("%d", &n);
+
+    // for (int i = 0; i <= n; i++)
+    // {
+    //     printf("%d\n", i);
+    // }
+    // return 0;
+
+    // Q11. Print the sum of First n Natural numbers;
+    // int n;
+    // printf("Please enter your number: ");
+    // scanf("%d", &n);
+
+    // if (n < 0)
+    // {
+    //     printf("Invalid number");
+    //     return 0;
+    // }
+
+    // int sum = 0;
+
+    // for (int i = 0; i <= n; i++)
+    // {
+    //     sum += i;
+    // }
+
+    // printf("Sum of %d natural numbers is %d", n, sum);
+
+    // Q12. Print the table of a number input by the user.
+
+    // int num;
+    // scanf("%d", &num);
+
+    // for (int i = 1; i <= 10; i++)
+    // {
+    //     printf("%d\n", i * num);
+    // }
+
+    // return 0;
+
+    // Q13. Keep taking numbers as input from user until user enters an odd number.
+
+    // int num;
+
+    // do
+    // {
+    //     printf("Please enter your number: ");
+    //     scanf("%d", &num);
+
+    //     if (num % 2 != 0)
+    //     {
+    //         continue;
+    //     }else {
+    //         break;
+    //     }
+
+    // } while (1);
+
+    // Q14. Print the factorial of a number n;
+    // int num;
+    // printf("Enter your number to print factorial: ");
+    // scanf("%d", &num);
+
+    // int factorial = 1;
+
+    // for(int i = num; i >= 1; i--){
+    //     factorial *= i;
+    // }
+    // printf("factorial is %d ", factorial);
+    // return 0;
+
+    // Q15. Print reverse of the table for a number n
+    // int num;
+    // printf("Enter your number to print reverse table: ");
+    // scanf("%d", &num);
+
+    // for (int i = 10; i >= 1; i--)
+    // {
+    //     printf("%d\n", i * num);
+    // }
     return 0;
 }
