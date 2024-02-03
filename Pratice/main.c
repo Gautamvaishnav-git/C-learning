@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 // function for questions
 // void calculatePerimeter();
@@ -6,6 +7,9 @@
 // void printAvgOfThree();
 // void isDigit();
 // void findSmallest();
+// void salt(char password[]);
+// void slice(char str[], int from, int to);
+// void countVowel(char str[]);
 
 int main()
 {
@@ -14,6 +18,14 @@ int main()
     // printAvgOfThree();
     // isDigit();
     // findSmallest();
+
+    // salt test
+    // char password[100];
+    // scanf("%s", password);
+    // salt(password);
+    // slice("gautam", 0, 6);
+    // countVowel("GK");
+
     return 0;
 }
 
@@ -86,7 +98,41 @@ int main()
 //     }
 // }
 
+// Q6. Create a salt function
+// void salt(char password[])
+// {
+//     char salt[] = "123";
+//     char newPassword[100];
+//     strcpy(newPassword, password);
+//     strcat(newPassword, salt);
+//     puts(newPassword);
+// }
 
+// Q7. Write a function named slice, which takes a string & returns a sliced string from index n to m
+// void slice(char str[], int from, int to)
+// {
+//     char sliced[to - from];
+//     int j = 0;
+//     for (int i = from; i <= to, j < (to - from); j++, i++)
+//     {
+//         sliced[j] = str[i];
+//     }
+//     sliced[j] = '\0';
+//     puts(sliced);
+// }
 
+// Q8. Write a function to count the occurrence of vowels in a string.
+// void countVowel(char str[])
+// {
+//     int count = 0;
+//     int i = 0;
+//     for (int i = 0; str[i] != '\0'; i++)
+//     {
+//         if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u')
+//         {
+//             count++;
+//         }
+//     }
 
-
+//     printf("vowels in %s is %d", str, count);
+// }

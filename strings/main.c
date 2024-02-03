@@ -23,12 +23,36 @@ int main()
     // printf("Ur Name is %s", fullName);
 
     // Gets and puts
-    char fullName[100];
+    // char fullName[100];
     // gets(fullName); --> deprecated because it does not track size of string
-    fgets(fullName, 100, stdin);
+    // fgets(fullName, 100, stdin);
     // puts(fullName);
     // printf("length is %d ", printLengthOfString(fullName));
-    printf("%u", strlen(fullName));
+    // printf("%u", strlen(fullName));
+
+    // char oldStr[] = "Old str";
+    // char newStr[] = "  ---> add this into old string";
+    // strcpy(newStr, oldStr);
+    // strcat(oldStr, newStr);
+    // puts(oldStr);
+
+    // string compression
+    // char firstStr[] = "Apple";
+    // char secondStr[] = "Banana";
+    // printf("%d", strcmp(secondStr, firstStr));
+
+    // char string[100];
+    // char ch;
+    // int i = 0;
+
+    // while (ch != '\n')
+    // {
+    //     scanf("%c", &ch);
+    //     string[i] = ch;
+    //     i++;
+    // }
+    // string[i] = '\0';
+    // puts(string);
 
     return 0;
 }
